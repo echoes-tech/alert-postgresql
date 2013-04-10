@@ -1,0 +1,2 @@
+INSERT INTO "T_ENGINE_ENG" (version, "ENG_FQDN", "ENG_STATE", "ENG_KEEP_ALIVE", "ENG_NB_THREAD")
+        VALUES (0, 'pgsql01', 'up', NOW(), 1000000000);
