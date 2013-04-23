@@ -92,13 +92,26 @@ sql_update() {
     then
       TMP=0${i}
     elif [ $i -ge 100 -a $i -lt 1000 ]
+    then
       TMP=$i
     else
       printf "$HELP"
       exit 1
     fi
 
-    SSLMODE=required psql -h $HOST -p $PORT -d $DBNAME -U $USERNAME -W $PASSWORD -f ${TMP}_*
+    if [ $(ls ${TMP}_* 2> /dev/null | wc -l) -eq 1 ]
+    then
+      echo -n "Launch $(ls ${TMP}_*) ? [Press Enter to Continue or CTRL+C to Exit] "
+      read CONTINNUE
+
+      PGPASSWORD=$PASSWORD SSLMODE=required psql -h $HOST -p $PORT -d $DBNAME -U $USERNAME -f ${TMP}_*
+    elif  [ $(ls ${TMP}_* 2> /dev/null | wc -l) -eq 0 ]
+    then
+      echo "No script starts by $TMP"
+    else
+      echo "Too many script starts by $TMP. None launched."
+    fi
+
     i=$((i+1))
   done
 }
