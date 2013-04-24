@@ -5,7 +5,7 @@
 CREATE TABLE "TJ_ENG_ORG"
 (
   version integer NOT NULL,
-  "ENO_token" text NOT NULL,
+  "ENO_TOKEN" text NOT NULL,
   "ENO_DELETE" timestamp without time zone,
   "ENG_ID_ENG_ID" bigint NOT NULL,
   "ORG_ID_ORG_ID" bigint NOT NULL,
@@ -22,3 +22,18 @@ WITH (
 );
 ALTER TABLE "TJ_ENG_ORG"
   OWNER TO echoes;
+
+CREATE OR REPLACE FUNCTION insert_eno() RETURNS integer AS $$
+DECLARE
+    org RECORD;
+BEGIN
+    FOR org IN SELECT * FROM "T_ORGANIZATION_ORG" LOOP
+        INSERT INTO "TJ_ENG_ORG" (version, "ENG_ID_ENG_ID", "ORG_ID_ORG_ID", "ENO_TOKEN") VALUES (0, 1, org."ORG_ID", (left(md5(random()::text), 25)));
+    END LOOP;
+    RETURN 1;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT insert_eno();
+
+DROP FUNCTION insert_eno();
