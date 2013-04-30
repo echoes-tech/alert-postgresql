@@ -22,7 +22,7 @@ VERSION="0.1"
 ########################
 # VARIRABLES DEFINITIONS
 ########################
-HOST="172.16.3.102"
+HOST="172.16.3.202"
 PORT=5432
 DBNAME="echoes"
 USERNAME="echoes"
@@ -99,13 +99,13 @@ sql_update() {
       exit 1
     fi
 
-    if [ $(ls ${TMP}_* 2> /dev/null | wc -l) -eq 1 ]
+    if [ $(ls ${TMP}_*.sql 2> /dev/null | wc -l) -eq 1 ]
     then
-      echo -n "Launch $(ls ${TMP}_*) ? [Press Enter to Continue or CTRL+C to Exit] "
+      echo -n "Launch $(ls ${TMP}_*.sql) ? [Press Enter to Continue or CTRL+C to Exit] "
       read CONTINNUE
 
-      PGPASSWORD=$PASSWORD SSLMODE=required psql -h $HOST -p $PORT -d $DBNAME -U $USERNAME -f ${TMP}_*
-    elif  [ $(ls ${TMP}_* 2> /dev/null | wc -l) -eq 0 ]
+      PGPASSWORD=$PASSWORD SSLMODE=required psql -h $HOST -p $PORT -d $DBNAME -U $USERNAME -f ${TMP}_*.sql
+    elif  [ $(ls ${TMP}_*.sql 2> /dev/null | wc -l) -eq 0 ]
     then
       echo "No script starts by $TMP"
     else
