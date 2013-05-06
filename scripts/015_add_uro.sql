@@ -1,0 +1,3 @@
+INSERT INTO "T_USER_ROLE_URO" (version, "URO_NAME", "URO_ORG_ORG_ID") VALUES (0, 'default', 1);
+
+UPDATE "T_USER_USR" SET "USR_URO_URO_ID" = 1;
