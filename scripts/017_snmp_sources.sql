@@ -21,12 +21,7 @@ SET search_path = public, pg_catalog;
 -- Data for Name: T_SOURCE_PARAMETER_SRP; Type: TABLE DATA; Schema: public; Owner: echoes
 --
 
-INSERT INTO "T_SOURCE_PARAMETER_SRP" ("SRP_ID", version, "SRP_FORMAT", "SRP_NAME", "SRP_DELETE") VALUES (4, 49, 'text', 'passwd', NULL);
-INSERT INTO "T_SOURCE_PARAMETER_SRP" ("SRP_ID", version, "SRP_FORMAT", "SRP_NAME", "SRP_DELETE") VALUES (6, 49, 'text', 'db', NULL);
-INSERT INTO "T_SOURCE_PARAMETER_SRP" ("SRP_ID", version, "SRP_FORMAT", "SRP_NAME", "SRP_DELETE") VALUES (7, 49, 'text', 'port', NULL);
-INSERT INTO "T_SOURCE_PARAMETER_SRP" ("SRP_ID", version, "SRP_FORMAT", "SRP_NAME", "SRP_DELETE") VALUES (2, 82, 'text', 'host', NULL);
-INSERT INTO "T_SOURCE_PARAMETER_SRP" ("SRP_ID", version, "SRP_FORMAT", "SRP_NAME", "SRP_DELETE") VALUES (3, 82, 'text', 'user', NULL);
-INSERT INTO "T_SOURCE_PARAMETER_SRP" ("SRP_ID", version, "SRP_FORMAT", "SRP_NAME", "SRP_DELETE") VALUES (1, 78, 'text', 'path', NULL);
+
 INSERT INTO "T_SOURCE_PARAMETER_SRP" ("SRP_ID", version, "SRP_FORMAT", "SRP_NAME", "SRP_DELETE") VALUES (13, 116, 'text', 'privPass', NULL);
 INSERT INTO "T_SOURCE_PARAMETER_SRP" ("SRP_ID", version, "SRP_FORMAT", "SRP_NAME", "SRP_DELETE") VALUES (8, 116, 'text', 'community', NULL);
 INSERT INTO "T_SOURCE_PARAMETER_SRP" ("SRP_ID", version, "SRP_FORMAT", "SRP_NAME", "SRP_DELETE") VALUES (9, 116, 'text', 'version', NULL);
@@ -77,7 +72,6 @@ INSERT INTO "TJ_ADO_STY" ("T_ADDON_ADO_ADO_ID", "T_SEARCH_TYPE_STY_STY_ID") VALU
 -- Data for Name: T_PROBE_PRB; Type: TABLE DATA; Schema: public; Owner: echoes
 --
 
-INSERT INTO "T_PROBE_PRB" ("PRB_ID", version, "PRB_CERT", "PRB_NAME", "PRB_DELETE", "PRB_ORG_ORG_ID", "PRB_PPP_PPP_ID") VALUES (49, 0, '', 'Probe_fai_server-fai-cisco', NULL, 46, NULL);
 INSERT INTO "T_PROBE_PRB" ("PRB_ID", version, "PRB_CERT", "PRB_NAME", "PRB_DELETE", "PRB_ORG_ORG_ID", "PRB_PPP_PPP_ID") VALUES (50, 1, '', 'Probe_hebergeur_server-prestashop', NULL, 46, 10);
 
 
@@ -87,7 +81,6 @@ INSERT INTO "T_PROBE_PRB" ("PRB_ID", version, "PRB_CERT", "PRB_NAME", "PRB_DELET
 -- Data for Name: T_ASSET_AST; Type: TABLE DATA; Schema: public; Owner: echoes
 --
 
-INSERT INTO "T_ASSET_AST" ("AST_ID", version, "AST_NAME", "AST_DELETE", "AST_IS_HOST", "AST_PRB_PRB_ID", "AST_ASA_ASA_ID", "AST_ASD_ASD_ID", "AST_ASR_ASR_ID", "AST_ORG_ORG_ID") VALUES (49, 0, 'server-fai-cisco', NULL, true, 49, NULL, NULL, NULL, 46);
 INSERT INTO "T_ASSET_AST" ("AST_ID", version, "AST_NAME", "AST_DELETE", "AST_IS_HOST", "AST_PRB_PRB_ID", "AST_ASA_ASA_ID", "AST_ASD_ASD_ID", "AST_ASR_ASR_ID", "AST_ORG_ORG_ID") VALUES (50, 1, 'server-prestashop', NULL, true, 50, 2, 2, 11, 46);
 
 
