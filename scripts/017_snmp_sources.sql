@@ -149,10 +149,7 @@ SELECT pg_catalog.setval('"T_ASSET_AST_AST_ID_seq"', 50, true);
 -- Data for Name: T_SOURCE_SRC; Type: TABLE DATA; Schema: public; Owner: echoes
 --
 
-INSERT INTO "T_SOURCE_SRC" (version, "SRC_DELETE", "SRC_ID", "PLG_ID_PLG_ID", "SRC_ADO_ADO_ID") VALUES (5, '2013-05-29 13:01:22.001515', 1, 8, 4);
-INSERT INTO "T_SOURCE_SRC" (version, "SRC_DELETE", "SRC_ID", "PLG_ID_PLG_ID", "SRC_ADO_ADO_ID") VALUES (6, '2013-05-30 09:22:27.78473', 3, 7, 5);
 INSERT INTO "T_SOURCE_SRC" (version, "SRC_DELETE", "SRC_ID", "PLG_ID_PLG_ID", "SRC_ADO_ADO_ID") VALUES (1, NULL, 4, 7, 5);
-INSERT INTO "T_SOURCE_SRC" (version, "SRC_DELETE", "SRC_ID", "PLG_ID_PLG_ID", "SRC_ADO_ADO_ID") VALUES (9, '2013-05-30 09:32:49.705533', 2, 8, 4);
 INSERT INTO "T_SOURCE_SRC" (version, "SRC_DELETE", "SRC_ID", "PLG_ID_PLG_ID", "SRC_ADO_ADO_ID") VALUES (2, NULL, 3, 8, 4);
 
 
@@ -162,33 +159,14 @@ INSERT INTO "T_SOURCE_SRC" (version, "SRC_DELETE", "SRC_ID", "PLG_ID_PLG_ID", "S
 -- Data for Name: T_SEARCH_SEA; Type: TABLE DATA; Schema: public; Owner: echoes
 --
 
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (7, '2013-05-30 09:22:27.734848', false, 1, 0, 10, 3, 7, 5, 60);
+
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (7, NULL, false, 1, 0, 2, 4, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (14, '2013-05-30 09:22:27.739011', false, 1, 0, 5, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (6, '2013-05-30 09:22:27.744639', false, 1, 0, 11, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (5, '2013-05-30 09:22:27.751695', false, 1, 0, 12, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (4, '2013-05-30 09:22:27.759789', false, 1, 0, 13, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (14, '2013-05-30 09:22:27.76483', false, 1, 0, 6, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (3, '2013-05-30 09:22:27.771943', false, 1, 0, 14, 3, 7, 5, 60);
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (6, NULL, false, 1, 0, 3, 4, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (15, '2013-05-30 09:32:49.69872', false, 1, 0, 3, 2, 8, 3, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (8, '2013-05-30 09:32:49.687464', false, 2, 1, 6, 2, 8, 3, 60);
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (5, NULL, false, 1, 0, 4, 4, 7, 5, 60);
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (4, NULL, false, 1, 0, 5, 4, 7, 5, 60);
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (3, NULL, false, 1, 0, 6, 4, 7, 5, 60);
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (2, NULL, false, 1, 0, 7, 4, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (14, '2013-05-30 09:22:27.776964', false, 1, 0, 7, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (14, '2013-05-30 09:22:27.781004', false, 1, 0, 8, 3, 7, 4, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (14, '2013-05-30 09:22:27.70924', false, 1, 0, 1, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (14, '2013-05-30 09:22:27.784727', false, 1, 0, 3, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (19, '2013-05-30 09:32:49.692044', false, 1, 0, 1, 2, 8, 3, 60);
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (1, NULL, false, 1, 0, 8, 4, 7, 4, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (14, '2013-05-30 09:22:27.714201', false, 1, 0, 4, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (14, '2013-05-30 09:22:27.718213', false, 1, 0, 2, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (8, '2013-05-30 09:22:27.727056', false, 1, 0, 9, 3, 7, 5, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (17, '2013-05-30 09:32:49.695433', false, 1, 0, 2, 2, 8, 3, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (14, '2013-05-30 09:32:49.702279', false, 1, 0, 4, 2, 8, 3, 60);
-INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (13, '2013-05-30 09:32:49.70553', false, 1, 0, 5, 2, 8, 3, 60);
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (8, NULL, false, 1, 0, 1, 4, 7, 5, 60);
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (8, NULL, false, 1, 0, 1, 3, 8, 3, 60);
 INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALUE", "SEA_POS_KEY_VALUE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEA_STY_STY_ID", "SEA_PERIOD") VALUES (7, NULL, false, 1, 0, 2, 3, 8, 3, 60);
@@ -207,14 +185,10 @@ INSERT INTO "T_SEARCH_SEA" (version, "SEA_DELETE", "SEA_IS_STATIC", "SEA_NB_VALU
 --
 
 INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (0, 'State-FastEthernet0-1', NULL, true, NULL, 2, 4, 7, 1, 14, NULL);
-INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (1, 'State-FastEthernet0-1', '2013-05-30 09:22:27.734844', true, NULL, 10, 3, 7, 1, 14, NULL);
+
 INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (0, 'State-FastEthernet0-0', NULL, true, NULL, 1, 4, 7, 1, 14, NULL);
-INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (1, 'Traffic-IN-FastEthernet0-0', '2013-05-30 09:22:27.744636', true, 'calculate_avg_iva', 11, 3, 7, 1, 14, NULL);
+
 INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (0, 'Traffic-IN-FastEthernet0-0', NULL, true, 'calculate_avg_iva', 3, 4, 7, 1, 9, NULL);
-INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (1, 'State-FastEthernet0-0', '2013-05-30 09:22:27.727053', true, NULL, 9, 3, 7, 1, 14, NULL);
-INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (1, 'Traffic-OUT-FastEthernet0-0', '2013-05-30 09:22:27.751693', true, 'calculate_avg_iva', 12, 3, 7, 1, 14, NULL);
-INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (1, 'Traffic-IN-FastEthernet0-1', '2013-05-30 09:22:27.759787', true, 'calculate_avg_iva', 13, 3, 7, 1, 14, NULL);
-INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (1, 'Traffic-OUT-FastEthernet0-1', '2013-05-30 09:22:27.77194', true, 'calculate_avg_iva', 14, 3, 7, 1, 14, NULL);
 INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (0, 'Traffic-OUT-FastEthernet0-0', NULL, true, 'calculate_avg_iva', 4, 4, 7, 1, 9, NULL);
 INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (0, 'Traffic-IN-FastEthernet0-1', NULL, true, 'calculate_avg_iva', 5, 4, 7, 1, 9, NULL);
 INSERT INTO "T_INFORMATION_INF" (version, "INF_NAME", "INF_DELETE", "INF_DISPLAY", "INF_CALCULATE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "INU_ID_INU_ID", "INF_DESC") VALUES (0, 'Traffic-OUT-FastEthernet0-1', NULL, true, 'calculate_avg_iva', 6, 4, 7, 1, 9, NULL);
@@ -265,38 +239,18 @@ SELECT pg_catalog.setval('"T_SEARCH_PARAMETER_SEP_SEP_ID_seq"', 3, true);
 -- Data for Name: T_SEARCH_PARAMETER_VALUE_SEV; Type: TABLE DATA; Schema: public; Owner: echoes
 --
 
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, '1.3.6.1.2.1.2.2.1.16.1', NULL, 5, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (6, '1.3.6.1.2.1.2.2.1.10.1', NULL, 4, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (5, '1.3.6.1.4.1.9.2.1.56.0', NULL, 3, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, '1.3.6.1.2.1.2.2.1.16.2', NULL, 7, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (5, '[0-9]{3,}', NULL, 8, 3, 7, 1);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (3, '1.3.6.1.2.1.2.2.1.8.1', NULL, 1, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (3, '1.3.6.1.2.1.2.2.1.8.2', NULL, 2, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (1, '1.3.6.1.2.1.2.2.1.10.2', NULL, 6, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (5, '1.3.6.1.2.1.1.3.0', NULL, 8, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (6, 'select ps_product_lang.name, count(product_quantity) from ps_product_lang, ps_order_detail where ps_product_lang.id_product=ps_order_detail.product_id group by ps_product_lang.name order by nb DESC limit 1;', NULL, 6, 2, 8, 2);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, 'select avg(ps_cart_product.quantity*(ps_product.price+ps_product_attribute.price)*(100+(ps_tax.rate))/100) from ps_cart_product, ps_product, ps_product_attribute, ps_tax WHERE ps_cart_product.id_product=ps_product.id_product AND ps_cart_product.id_product_attribute=ps_product_attribute.id_product_attribute AND ps_product.id_tax_rules_group=ps_tax.id_tax AND ps_cart_product.id_cart NOT IN (select ps_orders.id_cart from ps_orders);', NULL, 5, 2, 8, 2);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, '1.3.6.1.2.1.2.2.1.10.1', NULL, 3, 4, 7, 3);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, 'select count(ps_orders.reference) as NbCommandesNonLivreesDepuisPlusDeTroisJours from ps_orders where ps_orders.current_state=2 AND TO_DAYS(NOW())-TO_DAYS(ps_orders.date_add) > 3;', NULL, 6, 3, 8, 2);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (1, '1.3.6.1.2.1.2.2.1.10.2', NULL, 5, 4, 7, 3);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (0, '1.3.6.1.2.1.2.2.1.16.2', NULL, 6, 4, 7, 3);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (5, '1.3.6.1.2.1.2.2.1.8.1', NULL, 1, 4, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (6, 'select avg(total_paid) from ps_orders where TO_DAYS(NOW()) - TO_DAYS(date_add) <= 30;', NULL, 3, 2, 8, 2);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (4, 'select (b/(A.a-B.b))*100 from (select sum(ps_cart_product.quantity*(ps_product.price+ps_product_attribute.price)*(100+(ps_tax.rate))/100) as a from ps_cart_product, ps_product, ps_product_attribute, ps_tax WHERE ps_cart_product.id_product=ps_product.id_product AND ps_cart_product.id_product_attribute=ps_product_attribute.id_product_attribute AND ps_product.id_tax_rules_group=ps_tax.id_tax AND ps_cart_product.id_cart IN (select ps_orders.id_cart from ps_orders)) as A ,(select sum(ps_cart_product.quantity*(ps_product.price+ps_product_attribute.price)*(100+(ps_tax.rate))/100) as b from ps_cart_product, ps_product, ps_product_attribute, ps_tax WHERE ps_cart_product.id_product=ps_product.id_product AND ps_cart_product.id_product_attribute=ps_product_attribute.id_product_attribute AND ps_product.id_tax_rules_group=ps_tax.id_tax AND ps_cart_product.id_cart NOT IN (select ps_orders.id_cart from ps_orders)) as B;', NULL, 4, 2, 8, 2);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (1, 'select (b/(A.a-B.b))*100 as PourcentageBeneficeSurCASiPaniersTousConvertis from (select sum(ps_cart_product.quantity*(ps_product.price+ps_product_attribute.price)*(100+(ps_tax.rate))/100) as a from ps_cart_product, ps_product, ps_product_attribute, ps_tax WHERE ps_cart_product.id_product=ps_product.id_product AND ps_cart_product.id_product_attribute=ps_product_attribute.id_product_attribute AND ps_product.id_tax_rules_group=ps_tax.id_tax AND ps_cart_product.id_cart IN (select ps_orders.id_cart from ps_orders)) as A ,(select sum(ps_cart_product.quantity*(ps_product.price+ps_product_attribute.price)*(100+(ps_tax.rate))/100) as b from ps_cart_product, ps_product, ps_product_attribute, ps_tax WHERE ps_cart_product.id_product=ps_product.id_product AND ps_cart_product.id_product_attribute=ps_product_attribute.id_product_attribute AND ps_product.id_tax_rules_group=ps_tax.id_tax AND ps_cart_product.id_cart NOT IN (select ps_orders.id_cart from ps_orders)) as B;', NULL, 3, 3, 8, 2);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (1, '1.3.6.1.2.1.2.2.1.8.2', NULL, 10, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, '1.3.6.1.2.1.2.2.1.8.1', NULL, 9, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (0, '1.3.6.1.2.1.2.2.1.16.1', NULL, 12, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, '1.3.6.1.2.1.2.2.1.10.1', NULL, 11, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (1, '1.3.6.1.2.1.2.2.1.10.2', NULL, 13, 3, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (0, '1.3.6.1.2.1.2.2.1.16.2', NULL, 14, 3, 7, 3);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (1, '[0-9]{3,}', NULL, 8, 4, 7, 1);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (1, '1.3.6.1.2.1.1.3.0', NULL, 8, 4, 7, 3);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, '1.3.6.1.2.1.2.2.1.8.2', NULL, 2, 4, 7, 3);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, '1.3.6.1.4.1.9.2.1.56.0', NULL, 7, 4, 7, 3);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (0, 'select avg(ps_cart_product.quantity*(ps_product.price+ps_product_attribute.price)*(100+(ps_tax.rate))/100) as MontantPanierNCMoyen from ps_cart_product, ps_product, ps_product_attribute, ps_tax WHERE ps_cart_product.id_product=ps_product.id_product AND ps_cart_product.id_product_attribute=ps_product_attribute.id_product_attribute AND ps_product.id_tax_rules_group=ps_tax.id_tax AND ps_cart_product.id_cart NOT IN (select ps_orders.id_cart from ps_orders);', NULL, 4, 3, 8, 2);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (0, '1.3.6.1.2.1.2.2.1.16.1', NULL, 4, 4, 7, 3);
-INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (7, 'select count(ps_cart.id_cart) from ps_cart WHERE TO_DAYS(CURRENT_DATE())-TO_DAYS(ps_cart.date_add)<=7 AND ps_cart.id_cart NOT IN (select ps_orders.id_cart from ps_orders);', NULL, 2, 2, 8, 2);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, 'select sum(ps_cart_product.quantity*(ps_product.price+ps_product_attribute.price)*(100+(ps_tax.rate))/100) as MontantTotalPaniersAbandonn?sTTC from ps_cart_product, ps_product, ps_product_attribute, ps_tax WHERE ps_cart_product.id_product=ps_product.id_product AND ps_cart_product.id_product_attribute=ps_product_attribute.id_product_attribute AND ps_product.id_tax_rules_group=ps_tax.id_tax AND ps_cart_product.id_cart NOT IN (select ps_orders.id_cart from ps_orders);', NULL, 2, 3, 8, 2);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (2, 'select ps_product_lang.name as NomProduit, sum(ps_stock_available.quantity) as NbProduitEnStock from ps_product_lang, ps_stock_available where ps_stock_available.id_product = ps_product_lang.id_product group by NomProduit;', NULL, 5, 3, 8, 2);
 INSERT INTO "T_SEARCH_PARAMETER_VALUE_SEV" (version, "SEV_VALUE", "SEV_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "SEP_ID_SEP_ID") VALUES (4, 'select count(ps_cart.id_cart) as NbPaniersNC from ps_cart WHERE ps_cart.id_cart NOT IN (select ps_orders.id_cart from ps_orders);', NULL, 1, 3, 8, 2);
@@ -320,12 +274,6 @@ SELECT pg_catalog.setval('"T_SEARCH_TYPE_STY_STY_ID_seq"', 5, true);
 -- Data for Name: T_SEARCH_UNIT_SEU; Type: TABLE DATA; Schema: public; Owner: echoes
 --
 
-INSERT INTO "T_SEARCH_UNIT_SEU" (version, "SEU_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "SEU_INU_INU_ID") VALUES (0, NULL, 9, 3, 7, 1, 14);
-INSERT INTO "T_SEARCH_UNIT_SEU" (version, "SEU_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "SEU_INU_INU_ID") VALUES (0, NULL, 10, 3, 7, 1, 14);
-INSERT INTO "T_SEARCH_UNIT_SEU" (version, "SEU_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "SEU_INU_INU_ID") VALUES (0, NULL, 11, 3, 7, 1, 14);
-INSERT INTO "T_SEARCH_UNIT_SEU" (version, "SEU_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "SEU_INU_INU_ID") VALUES (0, NULL, 12, 3, 7, 1, 14);
-INSERT INTO "T_SEARCH_UNIT_SEU" (version, "SEU_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "SEU_INU_INU_ID") VALUES (0, NULL, 13, 3, 7, 1, 14);
-INSERT INTO "T_SEARCH_UNIT_SEU" (version, "SEU_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "SEU_INU_INU_ID") VALUES (0, NULL, 14, 3, 7, 1, 14);
 INSERT INTO "T_SEARCH_UNIT_SEU" (version, "SEU_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "SEU_INU_INU_ID") VALUES (0, NULL, 1, 4, 7, 1, 14);
 INSERT INTO "T_SEARCH_UNIT_SEU" (version, "SEU_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "SEU_INU_INU_ID") VALUES (0, NULL, 2, 4, 7, 1, 14);
 INSERT INTO "T_SEARCH_UNIT_SEU" (version, "SEU_DELETE", "SEA_ID", "SRC_ID", "PLG_ID_PLG_ID", "INF_VALUE_NUM", "SEU_INU_INU_ID") VALUES (0, NULL, 3, 4, 7, 1, 9);
@@ -361,19 +309,7 @@ SELECT pg_catalog.setval('"T_SOURCE_PARAMETER_SRP_SRP_ID_seq"', 13, true);
 -- Data for Name: T_SOURCE_PARAMETER_VALUE_SPV; Type: TABLE DATA; Schema: public; Owner: echoes
 --
 
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, '10.100.200.101', NULL, 2, 3, 7);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'na', NULL, 3, 3, 7);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'na', NULL, 13, 3, 7);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'public', NULL, 8, 3, 7);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'na', NULL, 10, 3, 7);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'na', NULL, 11, 3, 7);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'na', NULL, 12, 3, 7);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, '1', NULL, 9, 3, 7);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'Croagteld8', NULL, 4, 2, 8);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'prestashop_shop-echoes-technologies-com', NULL, 6, 2, 8);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, '3306', NULL, 7, 2, 8);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'localhost', NULL, 2, 2, 8);
-INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'root', NULL, 3, 2, 8);
+
 INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'na', NULL, 13, 4, 7);
 INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, 'public', NULL, 8, 4, 7);
 INSERT INTO "T_SOURCE_PARAMETER_VALUE_SPV" (version, "SPV_VALUE", "SPV_DELETE", "SRP_ID_SRP_ID", "SRC_ID", "PLG_ID_PLG_ID") VALUES (0, '1', NULL, 9, 4, 7);
