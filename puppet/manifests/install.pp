@@ -11,7 +11,7 @@ class echoes_alert_postgresql::install inherits echoes_alert_postgresql {
     ipv4acls         => $echoes_alert_postgresql::ipv4acls,
   }
 
-  postgresql::server::db { $dbname:
+  postgresql::server::db { $echoes_alert_postgresql::dbname:
     user     => $echoes_alert_postgresql::user,
     password => postgresql_password(
       $echoes_alert_postgresql::user,
@@ -36,13 +36,13 @@ class echoes_alert_postgresql::install inherits echoes_alert_postgresql {
     owner  => 0,
     group  => 0,
     mode   => '0755',
-    source => "puppet:///modules/${module_name}/table-initialisation/${branch}/${version}/table-initialisation"
+    source => "puppet:///modules/${module_name}/table-initialisation/${echoes_alert_postgresql::branch}/${echoes_alert_postgresql::version}/table-initialisation"
   }->
   file { "${echoes_alert_postgresql::binary_path}/init_tr.sql":
     ensure => 'file',
     owner  => 0,
     group  => 0,
     mode   => '0755',
-    source => "puppet:///modules/${module_name}/table-initialisation/${branch}/${version}/init_tr.sql"
+    source => "puppet:///modules/${module_name}/table-initialisation/${echoes_alert_postgresql::branch}/${echoes_alert_postgresql::version}/init_tr.sql"
   }
 }

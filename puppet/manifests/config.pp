@@ -3,7 +3,7 @@ class echoes_alert_postgresql::config inherits echoes_alert_postgresql {
   if $caller_module_name != $module_name {
     fail("Use of private class ${name} by ${caller_module_name}")
   }
-  
+
   file { '/etc/facter':
     ensure => directory,
     owner  => 0,
